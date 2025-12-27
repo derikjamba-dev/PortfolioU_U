@@ -1,0 +1,4 @@
+node_mudoles/
+.env/
+.DS_Store
+*.log
