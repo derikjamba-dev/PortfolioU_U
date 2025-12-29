@@ -21,6 +21,11 @@ app.use((req, res, next) => {
     next();
 });
 
+const allowedOrigins = [
+    'https://jocular-travesseiro-cffd1e.netlify.app/',
+    'http://localhost:8000',
+];
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

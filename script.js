@@ -45,7 +45,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 // URL do backend - IMPORTANTE: Certifique-se que o backend está rodando!
-const API_URL = 'http://localhost:3000/api/enviar-email';
+const API_URL = 'https://portfoliobackend-socb.onrender.com';
 
 // Verificar se o backend está acessível
 async function verificarBackend() {
