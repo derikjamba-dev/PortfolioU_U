@@ -50,7 +50,7 @@ const API_URL = 'https://portfoliobackend-socb.onrender.com/api/enviar-email';
 // Verificar se o backend está acessível
 async function verificarBackend() {
     try {
-        const response = await fetch('http://portfoliobackend-socb.onrender.com/');
+        const response = await fetch('https://portfoliobackend-socb.onrender.com/');
         if (response.ok) {
             console.log('✅ Backend conectado com sucesso!');
             return true;
